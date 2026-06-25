@@ -1,0 +1,27 @@
+title: Shravya
+description: Notes, projects, and demos on AI, ML, and engineering.
+url: "https://shravya258.github.io"
+baseurl: ""
+
+theme: minima
+minima:
+  skin: dark
+  social_links:
+    - { platform: github, user_url: "https://github.com/shravya258" }
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+show_excerpts: true
+
+header_pages:
+  - about.md
+  - projects.md
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
