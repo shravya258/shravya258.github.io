@@ -4,6 +4,4 @@ title: About
 permalink: /about/
 ---
 
-## About
-
 Loading...
