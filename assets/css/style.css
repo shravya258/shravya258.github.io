@@ -25,9 +25,10 @@ a { color: var(--accent-2); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .wrap {
-  max-width: 880px;
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 5vw;
 }
 
 /* Header */
@@ -71,8 +72,8 @@ a:hover { text-decoration: underline; }
 }
 .hero p {
   color: var(--text-dim);
-  font-size: 1.1rem;
-  max-width: 560px;
+  font-size: 1.2rem;
+  max-width: 720px;
 }
 
 /* Main content */
@@ -85,7 +86,14 @@ main { padding: 12px 0 80px; }
 }
 
 /* Post cards */
-.post-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 16px; }
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
 .post-card {
   background: var(--card);
   border: 1px solid var(--border);
