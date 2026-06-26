@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap');
 
 :root {
-  --bg: #b7a99e;
-  --bg-soft: #ab9c90;
-  --card: #b7a99e;
-  --border: #9d8f83;
+  --bg: #ede4d8;
   --text: #2b2520;
-  --text-dim: #4f4339;
-  --accent: #2b2520;
+  --text-dim: #6b6056;
 }
 
 * { box-sizing: border-box; }
@@ -58,37 +54,15 @@ a:hover { opacity: 0.6; }
 }
 .nav a:hover { color: var(--text); opacity: 1; }
 
-/* Hero */
-.hero {
-  padding: 56px 0 64px;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  text-align: center;
-}
-.hero h1 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-size: 3.2rem;
-  margin: 0 0 16px;
-  color: var(--text);
-}
-.hero p {
+/* Tagline */
+.tagline {
   color: var(--text-dim);
   font-size: 1.1rem;
-  max-width: 520px;
-  margin: 0 auto;
+  margin: 0 0 48px;
 }
 
 /* Main content */
-main { padding: 56px 0 96px; }
-
-.section-title {
-  font-family: 'Playfair Display', serif;
-  font-weight: 600;
-  font-size: 1.5rem;
-  margin: 0 0 32px;
-  text-align: center;
-}
+main { padding: 12px 0 96px; }
 
 /* Post cards */
 .post-list {
@@ -146,7 +120,6 @@ main { padding: 56px 0 96px; }
 
 /* Footer */
 .site-footer {
-  border-top: 1px solid var(--border);
   padding: 32px 0;
   color: var(--text-dim);
   font-size: 0.8rem;
