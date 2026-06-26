@@ -1,6 +1,9 @@
 <header class="site-header">
-  <div class="wrap">
-    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <div class="wrap header-row">
+    <div>
+      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <p class="tagline">{{ site.description }}</p>
+    </div>
     <nav class="nav">
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/about/' | relative_url }}">About</a>

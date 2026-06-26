@@ -11,12 +11,21 @@
 html, body {
   margin: 0;
   width: 100%;
+  height: 100%;
   background: var(--bg);
   color: var(--text);
   font-family: 'Jost', sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
 }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main { flex: 1; }
 
 a { color: var(--text); text-decoration: none; }
 a:hover { opacity: 0.6; }
@@ -34,9 +43,10 @@ a:hover { opacity: 0.6; }
 }
 .site-header .wrap {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   justify-content: space-between;
 }
+.nav { padding-top: 8px; }
 .brand {
   font-family: 'Playfair Display', serif;
   font-weight: 600;
@@ -57,12 +67,12 @@ a:hover { opacity: 0.6; }
 /* Tagline */
 .tagline {
   color: var(--text-dim);
-  font-size: 1.1rem;
-  margin: 0 0 48px;
+  font-size: 1rem;
+  margin: 6px 0 0;
 }
 
 /* Main content */
-main { padding: 12px 0 96px; }
+main { padding: 48px 0 96px; }
 
 /* Post cards */
 .post-list {
