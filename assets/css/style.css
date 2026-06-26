@@ -34,25 +34,26 @@ a:hover { opacity: 0.6; }
 
 /* Header */
 .site-header {
-  padding: 36px 0 24px;
+  padding: 44px 0;
 }
 .site-header .wrap {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
 }
 .brand {
   font-family: 'Playfair Display', serif;
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   letter-spacing: 0.5px;
   color: var(--text);
 }
+.nav { display: flex; gap: 40px; }
 .nav a {
-  margin-left: 32px;
+  margin-left: 0;
   color: var(--text-dim);
-  font-size: 0.85rem;
-  letter-spacing: 1.5px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 .nav a:hover { color: var(--text); opacity: 1; }
@@ -94,16 +95,15 @@ main { padding: 56px 0 96px; }
   list-style: none;
   padding: 0;
   margin: 0;
-  display: grid;
-  gap: 48px;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 .post-card {
-  padding: 0 0 32px;
-  border-bottom: 1px solid var(--border);
+  padding: 0;
   transition: opacity 0.15s;
 }
-.post-card:hover { opacity: 0.75; }
+.post-card:hover { opacity: 0.7; }
 .post-card .meta {
   color: var(--text-dim);
   font-size: 0.75rem;
