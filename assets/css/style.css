@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap');
 
 :root {
   --bg: #ede4d8;
@@ -47,7 +47,7 @@ a:hover { opacity: 0.6; }
 }
 .nav { padding-top: 8px; }
 .brand {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Zen Old Mincho', serif;
   font-weight: 600;
   font-size: 1.7rem;
   letter-spacing: 0.5px;
@@ -95,7 +95,7 @@ main { padding: 48px 0 96px; }
   margin-bottom: 10px;
 }
 .post-card h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Zen Old Mincho', serif;
   font-weight: 600;
   margin: 0 0 10px;
   font-size: 1.25rem;
@@ -108,7 +108,7 @@ main { padding: 48px 0 96px; }
   padding: 0;
 }
 .page-content h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Zen Old Mincho', serif;
   font-weight: 700;
   margin-top: 0;
 }
